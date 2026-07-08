@@ -1,0 +1,300 @@
+Satelite ID: SAT_1
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 255
+Satelite ID: SAT_2
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_3
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_4
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_5
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_6
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_7
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 117
+Satelite ID: SAT_8
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 165
+Satelite ID: SAT_9
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 202
+Satelite ID: SAT_10
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 230
+Satelite ID: SAT_11
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_12
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_13
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_14
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_15
+Cantidad de datos con is_visible_inner=True: 245
+Cantidad de datos con is_visible_outer=True: 364
+Satelite ID: SAT_16
+Cantidad de datos con is_visible_inner=True: 250
+Cantidad de datos con is_visible_outer=True: 366
+Satelite ID: SAT_17
+Cantidad de datos con is_visible_inner=True: 253
+Cantidad de datos con is_visible_outer=True: 369
+Satelite ID: SAT_18
+Cantidad de datos con is_visible_inner=True: 253
+Cantidad de datos con is_visible_outer=True: 369
+Satelite ID: SAT_19
+Cantidad de datos con is_visible_inner=True: 252
+Cantidad de datos con is_visible_outer=True: 368
+Satelite ID: SAT_20
+Cantidad de datos con is_visible_inner=True: 249
+Cantidad de datos con is_visible_outer=True: 366
+Satelite ID: SAT_21
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_22
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_23
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_24
+Cantidad de datos con is_visible_inner=True: 96
+Cantidad de datos con is_visible_outer=True: 287
+Satelite ID: SAT_25
+Cantidad de datos con is_visible_inner=True: 23
+Cantidad de datos con is_visible_outer=True: 271
+Satelite ID: SAT_26
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 254
+Satelite ID: SAT_27
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 235
+Satelite ID: SAT_28
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 214
+Satelite ID: SAT_29
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 190
+Satelite ID: SAT_30
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_31
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_32
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_33
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_34
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_35
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_36
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_37
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_38
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_39
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_40
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_41
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_42
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_43
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_44
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_45
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_46
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 54
+Satelite ID: SAT_47
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 110
+Satelite ID: SAT_48
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_49
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_50
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_51
+Cantidad de datos con is_visible_inner=True: 144
+Cantidad de datos con is_visible_outer=True: 306
+Satelite ID: SAT_52
+Cantidad de datos con is_visible_inner=True: 169
+Cantidad de datos con is_visible_outer=True: 318
+Satelite ID: SAT_53
+Cantidad de datos con is_visible_inner=True: 190
+Cantidad de datos con is_visible_outer=True: 330
+Satelite ID: SAT_54
+Cantidad de datos con is_visible_inner=True: 206
+Cantidad de datos con is_visible_outer=True: 339
+Satelite ID: SAT_55
+Cantidad de datos con is_visible_inner=True: 219
+Cantidad de datos con is_visible_outer=True: 347
+Satelite ID: SAT_56
+Cantidad de datos con is_visible_inner=True: 159
+Cantidad de datos con is_visible_outer=True: 221
+Satelite ID: SAT_57
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_58
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_59
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_60
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_61
+Cantidad de datos con is_visible_inner=True: 223
+Cantidad de datos con is_visible_outer=True: 349
+Satelite ID: SAT_62
+Cantidad de datos con is_visible_inner=True: 210
+Cantidad de datos con is_visible_outer=True: 340
+Satelite ID: SAT_63
+Cantidad de datos con is_visible_inner=True: 191
+Cantidad de datos con is_visible_outer=True: 331
+Satelite ID: SAT_64
+Cantidad de datos con is_visible_inner=True: 169
+Cantidad de datos con is_visible_outer=True: 318
+Satelite ID: SAT_65
+Cantidad de datos con is_visible_inner=True: 75
+Cantidad de datos con is_visible_outer=True: 156
+Satelite ID: SAT_66
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_67
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_68
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_69
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 55
+Satelite ID: SAT_70
+Cantidad de datos con is_visible_inner=True: 234
+Cantidad de datos con is_visible_outer=True: 357
+Satelite ID: SAT_71
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_72
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_73
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_74
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_75
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_76
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_77
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_78
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_79
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_80
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_81
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_82
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_83
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_84
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_85
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_86
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_87
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_88
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_89
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_90
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_91
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_92
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_93
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_94
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_95
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_96
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_97
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_98
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_99
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0
+Satelite ID: SAT_100
+Cantidad de datos con is_visible_inner=True: 0
+Cantidad de datos con is_visible_outer=True: 0

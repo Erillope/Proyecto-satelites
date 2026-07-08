@@ -1,72 +1,67 @@
-from datos_satelites import Satelite, DatosSatelite
+from repository import Satelite
+from typing import Dict, List, Tuple
+from datetime import datetime
+from handover import CriticalPoint
 import matplotlib.pyplot as plt
-import numpy as np
-from typing import Callable
+import matplotlib.dates as mdates
+from datetime import time
 
-class GraficadorPotencia:
+Color = str
+CurvaPotencias = Tuple[Color, Tuple[List[time], List[float]]]
 
-    def __init__(self, satelites: list[Satelite]):
-        self.satelites = satelites
-
-    def grafica_potencias(self, grafica_name="grafica_potencias.png") -> None:
-        plt.figure(figsize=(10, 6))
-        for satelite in self.satelites:
-            segundos = [dato.segundo for dato in satelite.datos]
-            prx_values = [dato.prx for dato in satelite.datos]
-            
-            horas_str = [f"{segundo // 3600:02d}:{(segundo % 3600) // 60:02d}:{segundo % 60:02d}" for segundo in segundos]
-
-            step = max(1, len(segundos) // 10)
-            plt.xticks(
-                segundos[::step],
-                horas_str[::step]
-            )
-
-            plt.plot(segundos, prx_values, label=f'Satélite {satelite.id}')
-        
-        self._show_plot('Potencia de Señal de Satélites', 'Horas', 'PRx', grafica_name)
+class GraficadorCurvasPotencias:
+    def __init__(self) -> None:
+        self.curvas: Dict[str, CurvaPotencias] = {}
     
-    def grafica_disponibilidad_cobertura(self, grafica_name="grafica_disponibilidad_cobertura.png") -> None:
-        plt.figure(figsize=(10, 6))
-        segundos = [dato.segundo for dato in self.satelites[0].datos]
-        disponibilidad_outer = self._obtener_disponibilidad(segundos, lambda dato: dato.is_visible_outer)
-        disponibilidad_inner = self._obtener_disponibilidad(segundos, lambda dato: dato.is_visible_inner)
-        
-        str_times = [f"{segundo // 3600:02d}:{(segundo % 3600) // 60:02d}:{segundo % 60:02d}" for segundo in segundos]
-        plt.xticks([i for i in range(0, len(segundos), max(1, len(segundos) // 10))], [str_times[i] for i in range(0, len(segundos), max(1, len(segundos) // 10))])
-        
-        disponibilidad_outer = np.array(disponibilidad_outer)
-        disponibilidad_outer_0 = np.where(disponibilidad_outer == 0, 0, np.nan)
-        disponibilidad_outer_1 = np.where(disponibilidad_outer == 1, 0, np.nan)
+    def add_all_curvas(self, satelites: List[Satelite], t: time) -> None:
+        for satelite in satelites:
+            self.add_curva(satelite, t)
 
-        disponibilidad_inner = np.array(disponibilidad_inner)
-        disponibilidad_inner_0 = np.where(disponibilidad_inner == 0, 1, np.nan)
-        disponibilidad_inner_1 = np.where(disponibilidad_inner == 1, 1, np.nan)
+    def add_curva(self, satelite: Satelite, t: time) -> None:
+        if satelite.id not in self.curvas:
+            self.curvas[satelite.id] = (satelite.color, ([], []))
+        self.curvas[satelite.id][1][0].append(t)
+        self.curvas[satelite.id][1][1].append(satelite.prx)
 
-        plt.plot(segundos, disponibilidad_outer_0, 'red', label='No Disponible (Outer)')
-        plt.plot(segundos, disponibilidad_outer_1, 'green', label='Disponible (Outer)')
+    def plot(self, name: str) -> None:
+        plt.figure(figsize=(12, 6))
+        for (color, (times, prx_values)) in self.curvas.values():
+            plt.plot([datetime.combine(datetime.today(), t) for t in times], prx_values, color=color)
 
-        plt.plot(segundos, disponibilidad_inner_0, 'orange', label='No Disponible (Inner)')
-        plt.plot(segundos, disponibilidad_inner_1, 'blue', label='Disponible (Inner)')
-        
-        self._show_plot('Disponibilidad Cobertura', 'Horas', 'Disponibilidad', grafica_name)
-    
-    def _obtener_disponibilidad(self, segundos: list[int], condition: Callable[[DatosSatelite], bool]) -> list[int]:
-        disponibilidad = []
-        for segundo in segundos:
-            for satelite in self.satelites:
-                if any(dato.segundo == segundo and condition(dato) for dato in satelite.datos):
-                    disponibilidad.append(1)
-                    break
-            else:
-                disponibilidad.append(0)
-        return disponibilidad
-
-    def _show_plot(self, title: str, xlabel: str, ylabel: str,  grafica_name: str) -> None:
-        plt.title(title)
-        plt.xlabel(xlabel)
-        plt.ylabel(ylabel)
+        plt.xlabel("Hora")
+        plt.ylabel("PRx")
+        plt.title(name)
         plt.legend()
         plt.grid()
-        plt.savefig(grafica_name)
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.gca().xaxis.set_major_formatter(
+            mdates.DateFormatter("%H:%M:%S")
+        )
+        plt.savefig(name+'.png')
+        plt.show()
+
+
+class GraficadorHandover:
+    def plot(self, critical_points: List[CriticalPoint], time_range: List[time], muestras_prx: List[float], name: str) -> None:
+        plt.figure(figsize=(12, 6))
+        plt.plot([datetime.combine(datetime.today(), t) for t in time_range], muestras_prx)
+
+        for critical_point in critical_points:
+            if critical_point.type == "switch":
+                color = "orange"
+            elif critical_point.type == "not_found":
+                color = "red"
+            elif critical_point.type == "reconnect":
+                color = "green"
+            plt.axvline(datetime.combine(datetime.today(), critical_point.time), color=color, linestyle='--', alpha=0.5)
+
+        plt.xlabel("Hora")
+        plt.ylabel("PRx")
+        plt.title(name)
+        plt.grid()
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.gca().xaxis.set_major_formatter(mdates.DateFormatter("%H:%M:%S"))
+        plt.savefig(name+'.png')
         plt.show()

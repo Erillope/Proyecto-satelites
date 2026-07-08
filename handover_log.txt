@@ -1,0 +1,24 @@
+[RECONNECT]: Se reconectó al satélite SAT_56 a las 00:00:00.
+[SWITCH]: Se realizó un cambio de satélite a las 00:02:44 hacia el satélite SAT_20.
+[NOT_FOUND]: Pérdida de conexión a las 00:07:25.
+[RECONNECT]: Se reconectó al satélite SAT_64 a las 00:08:25.
+[SWITCH]: Se realizó un cambio de satélite a las 00:11:55 hacia el satélite SAT_55.
+[SWITCH]: Se realizó un cambio de satélite a las 00:13:02 hacia el satélite SAT_19.
+[NOT_FOUND]: Pérdida de conexión a las 00:17:46.
+[RECONNECT]: Se reconectó al satélite SAT_63 a las 00:18:37.
+[SWITCH]: Se realizó un cambio de satélite a las 00:22:26 hacia el satélite SAT_54.
+[SWITCH]: Se realizó un cambio de satélite a las 00:23:19 hacia el satélite SAT_18.
+[NOT_FOUND]: Pérdida de conexión a las 00:28:07.
+[RECONNECT]: Se reconectó al satélite SAT_62 a las 00:28:51.
+[SWITCH]: Se realizó un cambio de satélite a las 00:32:55 hacia el satélite SAT_53.
+[SWITCH]: Se realizó un cambio de satélite a las 00:33:36 hacia el satélite SAT_17.
+[NOT_FOUND]: Pérdida de conexión a las 00:38:27.
+[RECONNECT]: Se reconectó al satélite SAT_61 a las 00:39:06.
+[SWITCH]: Se realizó un cambio de satélite a las 00:43:22 hacia el satélite SAT_52.
+[SWITCH]: Se realizó un cambio de satélite a las 00:43:54 hacia el satélite SAT_16.
+[NOT_FOUND]: Pérdida de conexión a las 00:48:46.
+[RECONNECT]: Se reconectó al satélite SAT_70 a las 00:49:22.
+[SWITCH]: Se realizó un cambio de satélite a las 00:53:52 hacia el satélite SAT_51.
+[SWITCH]: Se realizó un cambio de satélite a las 00:54:12 hacia el satélite SAT_15.
+[NOT_FOUND]: Pérdida de conexión a las 00:59:04.
+[RECONNECT]: Se reconectó al satélite SAT_69 a las 00:59:39.
